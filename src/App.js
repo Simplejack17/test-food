@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './App.css'
+import './css/App.css'
 import { Link, Switch, Route, Redirect } from 'react-router-dom'
 
 import FrontPage from './views/frontpage'

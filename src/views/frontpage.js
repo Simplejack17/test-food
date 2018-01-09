@@ -4,7 +4,7 @@ class FrontPage extends Component {
   render () {
     return (
       <div>
-        <h1>Front Page</h1>
+        <h1>Title</h1>
       </div>
     )
   }
