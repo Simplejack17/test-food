@@ -8,11 +8,11 @@ class FrontPage extends Component {
 
     button.addEventListener("click", function () {
         var address = document.getElementById('address').value;
-        this.getLatitudeLongitude(this.searchRestaraunts, address)
+        this.getLatitudeLongitude(this.searchRestaurants, address)
     });
   }
 
-searchRestaraunts(result) {
+searchRestaurants(result) {
 	var lat = result.geometry.location.lat();
   var long = result.geometry.location.lng();
 
